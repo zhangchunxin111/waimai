@@ -1,0 +1,45 @@
+{
+  "index.html": {
+    "resources": [
+      "css/index.css",
+      "css/base.css"
+    ],
+    "refer": []
+  },
+  "wode.html": {
+    "resources": [
+      "css/base.css",
+      "img/wode.png",
+      "img/ddan.png",
+      "img/pingfen.png",
+      "img/wdtu.png",
+      "img/waimai.png",
+      "js/rem.js",
+      "img/jinbi.png",
+      "img/youhuiquan.png",
+      "img/wdsc.png",
+      "img/JINBBB.png",
+      "img/xz.png",
+      "img/shdz.png",
+      "img/kfx.png",
+      "img/Ѱ.png",
+      "css/wode.css",
+      "img/qianbao.png",
+      "img/p.png",
+      "img/p.png"
+    ],
+    "refer": []
+  },
+  "login.html": {
+    "resources": [
+      "css/base.css",
+      "img/weibo_1.png",
+      "css/login.css",
+      "img/QQ (1).png",
+      "img/taobao.png",
+      "img/fanhu.png",
+      "img/weixin .png",
+      "js/rem.js"
+    ]
+  }
+}

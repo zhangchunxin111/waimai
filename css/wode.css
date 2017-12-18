@@ -1,0 +1,291 @@
+/*
+* @Author: asus
+* @Date:   2017-12-07 16:14:16
+* @Last Modified by:   asus
+* @Last Modified time: 2017-12-11 10:30:28
+*/@import url('base.css');
+body{
+	background: #f5f5f5
+}
+.header{
+	width: 100%;
+	height: 5rem;
+
+}
+.header-top{
+	width: 100%;
+	height: 3.37rem;
+	background: #01a3ff;
+	position: relative
+}
+.wodezuo span{
+	font-size: 0.32rem;
+}
+.header-bottom{
+	width: 100%;
+	height: 1.63rem;
+
+	/* border-top: 0.01rem solid #ddd;
+	border-bottom: 0.01rem solid #ddd; */
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+.qianbao{
+	width: 2.38rem;
+	height: 1.6rem;
+	background: white
+	
+}
+.qian{
+	width: 0.59rem;
+	height: 1.2rem;
+
+	margin-left: 0.82rem;
+	overflow: hidden
+}
+.qiantu{
+	width: 0.58rem;
+	height: 0.58rem;
+	
+	margin:0 auto;
+	margin-top: 0.26rem
+}
+.qiantu img{
+	width: 100%;
+	height: 100%;
+	display: block
+}
+.qianzi{
+	width: 0.59rem;
+	height: 0.23rem;
+	
+	margin-top: 0.13rem;
+	font-size: 0.24rem;
+	text-align: center;
+	line-height: 0.23rem
+}
+.wode{
+	width: 100%;
+	height: 0.55rem;
+	
+	/* margin-top: 0.34rem; */
+	position: absolute;
+	top: 0.34rem;
+	left: 0
+}
+.ljdl{
+	width: 100%;
+	height: 1.42rem;
+	
+	position: absolute;
+	top: 1.42rem;
+}
+.ljdlleft{
+	width: 1.3rem;
+	height: 1.3rem;
+	
+	margin-left: 0.35rem;
+	float: left;
+}
+.wodetu{
+	width: 1.3rem;
+	height: 1.3rem;
+
+}
+.ljdlzhong{
+	width: 2.44rem;
+	height: 0.85rem;
+
+	float: left;
+	margin-left: 0.34rem;
+	margin-top: 0.35rem;
+	/* display: flex;
+	align-content: space-between;
+	flex-direction: row; */
+}
+.dlwen{
+	width: 2.44rem;
+	height: 0.32rem;
+	
+	font-size: 0.32rem;
+	color: white
+
+}
+.dlwenwen{
+	width: 100%;
+	height: 0.25rem;
+
+	margin-top: 0.23rem;
+	font-size: 0.24rem;
+	color: white
+}
+.ljdlyou{
+	width: 0.18rem;
+	height: 0.32rem;
+	font-size: 0.34rem;
+	color: white;
+	margin-top: 0.7rem;
+	margin-left: 6.66rem;
+}
+.wodezuo{
+	/*width: 0.7rem;
+	height: 0.32rem;
+
+	margin-left: 0.35rem;*/
+	margin-top: 0.16rem;
+	color: white;
+	font-size: 0.26rem;
+	text-align: center
+}
+.dizhi{
+	width: 100%;
+	height: 1.93rem;
+	background: #ffffff;
+	border-top: 0.01rem solid #dddddd;
+	/* border-bottom: 0.01rem solid #dddddd; */
+	margin-top: 0.16rem;
+	/* display: flex;
+	align-content: center; */
+}
+.dizhi li{
+	width: 100%;
+	height: 0.96rem;
+	
+	border-bottom: 0.01rem solid #dddddd;
+	position: relative
+}
+.icon{
+	width: 0.36rem;
+	height: 0.36rem;
+	
+	/* line-height: 0.36rem */
+	position: absolute;
+	top: 0.3rem;
+	left: 0.3rem;
+}
+.icon img{
+	width: 100%;
+	height: 100%
+}
+.dizhi li span{
+	position: absolute;
+	top: 0.3rem;
+	left: 0.9rem;
+}
+.jinbi{
+	width: 100%;
+	height: 0.96rem;
+	background: white;
+	border-top: 0.01rem solid #dddddd;
+	border-bottom: 0.01rem solid #dddddd;
+	margin-top: 0.16rem;
+}
+.icon1{
+	width: 0.36rem;
+	height: 0.36rem;
+	
+	/* line-height: 0.36rem */
+	position: absolute;
+	top: 0.3rem;
+	left: 0.3rem;
+	
+}
+.jinbi li{
+	width: 100%;
+	height: 0.96rem;
+	margin-bottom: 1.5rem;
+	border-bottom: 0.01rem solid #dddddd;
+	position: relative
+}
+.icon1{
+	width: 0.36rem;
+	height: 0.36rem;
+	
+	/* line-height: 0.36rem */
+	position: absolute;
+	top: 0.3rem;
+	left: 0.3rem;
+}
+.icon1 img{
+	width: 100%;
+	height: 100%
+}
+.jinbi li span{
+	position: absolute;
+	top: 0.3rem;
+	left: 0.9rem;
+}
+.footer{
+	width: 100%;
+    height: 1.32rem;
+    background: white;
+    box-sizing: border-box;
+    border-top: 0.02rem solid #f5f5f5;
+    border-bottom: 0.02rem solid #f5f5f5;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+}
+.dibu{
+	width: 100%;
+    height: 1.32rem;
+}
+.dibu li{
+	
+    width: 25%;
+    height: 100%;
+    /* background: red; */
+    float: left;
+}
+.dibu1{
+	width: 0.72rem;
+    height: 1.08rem;
+  
+    margin-left: 0.44rem;
+    overflow: hidden;
+}
+.dbt{
+	width: 0.52rem;
+    height: 0.52rem;
+    background: white;
+    margin: 0 auto;
+    margin-top: 0.18rem;
+}
+.dbz{
+	width: 0.71rem;
+    height: 0.23rem;
+    margin-top: 0.16rem;
+    font-size: 0.21rem;
+    color: #7B7B7B;
+    text-align: center;
+    line-height: 0.23rem;
+}
+.dbt img{
+	width: 100%;
+	height: 100%;
+	display: block
+}
+.dbz2{
+	width: 0.71rem;
+    height: 0.23rem;
+    margin-top: 0.16rem;
+    font-size: 0.21rem;
+    color: #01a3ff;
+    text-align: center;
+    line-height: 0.23rem;
+}
+  @font-face {
+  font-family: 'iconfont';  /* project id 500209 */
+  src: url('//at.alicdn.com/t/font_500209_ulzo4zp6gzeyiudi.eot');
+  src: url('//at.alicdn.com/t/font_500209_ulzo4zp6gzeyiudi.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_500209_ulzo4zp6gzeyiudi.woff') format('woff'),
+  url('//at.alicdn.com/t/font_500209_ulzo4zp6gzeyiudi.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_500209_ulzo4zp6gzeyiudi.svg#iconfont') format('svg');
+}
+
+
+
